@@ -1,7 +1,7 @@
-package br.com.alura.carro;
+import br.com.alura.carro.Carro;
 
 public class  ModeloCarro extends Carro {
-    public class TesteCarro() {
+    public static class TesteCarro {
         public static void main (String [] args) {
             ModeloCarro meuCarro = new ModeloCarro();
             meuCarro.definirModelo("Sedan");
